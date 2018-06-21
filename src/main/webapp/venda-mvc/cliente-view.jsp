@@ -3,7 +3,7 @@
 <%@page import="java.util.List"%>
 <html>
 <head>
-<title>Venda</title>
+<title>Cliente</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="bootstrap.min.css">
 </head>
@@ -20,7 +20,7 @@
 						<form>
 							<div class="form-group">
 								<input name="codigo" value="${param.codigo}" type="text"
-									placeholder="Código" class="form-control">
+									placeholder="CÃ³digo" class="form-control">
 							</div>
 							<div class="form-group">
 								<input name="nome" value="${param.nome}" type="text"
@@ -28,7 +28,7 @@
 							</div>
 							<div class="form-group">
 								<input name="matricula" value="${param.matricula}" type="number"
-									placeholder="Matrícula" class="form-control">
+									placeholder="MatrÃ­cula" class="form-control">
 							</div>
 							<button name="op" value="incluir" class="btn btn-default">Incluir</button>
 							<button name="op" value="salvar" class="btn btn-default">Salvar</button>
@@ -37,9 +37,9 @@
 				</div>
 				<table class="table table-bordered table-striped">
 					<tr>
-						<td>Código</td>
+						<td>CÃ³digo</td>
 						<td>Nome</td>
-						<td>Matrícula</td>
+						<td>MatrÃ­cula</td>
 						<td>#</td>
 					</tr>
 					<%
